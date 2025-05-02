@@ -17,21 +17,66 @@
         <a href="https://instagram.com/ro.zaqi" target="_blank">Instagram</a>
     </header>
 
+    <!-- Tentang Saya -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya seorang desainer grafis dengan pengalaman mengelola media sosial dan membuat konten grafis. Saya menjabat sebagai pemegang media sosial dan pembuat grafis postingan untuk akun Instagram <a href="https://instagram.com/imalapa_tuban" target="_blank">@imalapa_tuban</a> dari November 2023 hingga November 2024, serta untuk <a href="https://instagram.com/yumsert.id" target="_blank">@yumsert.id</a> dari Maret 2025 hingga sekarang. Selain itu, saya pernah menjadi Ketua Divisi Pendidikan dan Pelatihan di Imalapa Tuban.</p>
+    </section>
+
     <!-- Portofolio -->
     <section id="portfolio">
         <h2>Karya Saya</h2>
         <div class="gallery">
+            <!-- Grup 1: Poster Ucapan Undur Diri -->
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200" alt="Desain 1">
-                <h3>Desain Logo</h3>
-                <p>Logo untuk brand lokal menggunakan Adobe Illustrator. Fokus pada kesederhanaan dan identitas merek.</p>
+                <h3>Poster Ucapan Undur Diri</h3>
+                <p>24 poster ucapan undur diri untuk Imalapa Tuban (12 untuk angkatan 2022, 12 untuk angkatan 2021) menggunakan Adobe Photoshop dan Canva.</p>
+                <div class="slider">
+                    <div class="slides">
+                        <!-- Ganti URL dengan gambar Anda -->
+                        <img src="https://via.placeholder.com/300x200" alt="Poster Undur Diri 1">
+                        <img src="https://via.placeholder.com/300x200" alt="Poster Undur Diri 2">
+                        <!-- Tambahkan 22 img lagi untuk total 24 -->
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 0)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1, 0)">&#10095;</button>
+                    <div class="dots"></div>
+                </div>
             </div>
+
+            <!-- Grup 2: Poster Event -->
             <div class="portfolio-item">
-                <img src="https://via.placeholder.com/300x200" alt="Desain 2">
                 <h3>Poster Event</h3>
-                <p>Poster untuk acara musik menggunakan Photoshop. Mengutamakan komposisi warna yang menarik.</p>
+                <p>6 poster untuk berbagai acara menggunakan Adobe Photoshop dan Illustrator.</p>
+                <div class="slider">
+                    <div class="slides">
+                        <!-- Ganti URL dengan gambar Anda -->
+                        <img src="https://via.placeholder.com/300x200" alt="Poster Event 1">
+                        <img src="https://via.placeholder.com/300x200" alt="Poster Event 2">
+                        <!-- Tambahkan 4 img lagi untuk total 6 -->
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1, 1)">&#10095;</button>
+                    <div class="dots"></div>
+                </div>
             </div>
-            <!-- Tambahkan lebih banyak item sesuai kebutuhan -->
+
+            <!-- Grup 3: Postingan Promosi Bisnis -->
+            <div class="portfolio-item">
+                <h3>Postingan Promosi Bisnis</h3>
+                <p>5 desain promosi produk untuk @Yumsert.id menggunakan Canva dan Photoshop.</p>
+                <div class="slider">
+                    <div class="slides">
+                        <!-- Ganti URL dengan gambar Anda -->
+                        <img src="https://via.placeholder.com/300x200" alt="Promosi 1">
+                        <img src="https://via.placeholder.com/300x200" alt="Promosi 2">
+                        <!-- Tambahkan 3 img lagi untuk total 5 -->
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1, 2)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1, 2)">&#10095;</button>
+                    <div class="dots"></div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -46,5 +91,7 @@
     <footer>
         <p>© 2025 Ahmad Abror Rozaqi Fatoni. All rights reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
