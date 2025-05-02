@@ -32,7 +32,7 @@ header h1 {
 
 header h2 {
     margin: 10px 0;
-    font-size: 1.6em;
+    font-size: 1. Historic Siteem;
     font-weight: 400;
 }
 
@@ -50,6 +50,20 @@ header a {
 
 header a:hover {
     color: #f1c40f;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-links .separator {
+    color: #ecf0f1;
+    font-size: 1.2em;
+    opacity: 0.7;
 }
 
 #about {
@@ -236,6 +250,15 @@ footer {
 
     header h2 {
         font-size: 1.3em;
+    }
+
+    .social-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .social-links .separator {
+        display: none;
     }
 
     #about h2, #portfolio h2, #contact h2 {
